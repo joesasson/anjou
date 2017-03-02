@@ -4,12 +4,6 @@ import NameList from './NameList'
 
 export default class NameContainer extends Component{
 
-
-
-  handleGeneratePairsClick(event){
-
-  }
-
   render(){
     return (
       <div>
