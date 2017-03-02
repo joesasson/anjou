@@ -4,3 +4,10 @@ export const addName = (name) => {
     payload: name
   }
 }
+
+export const setPairs = (pairs) => {
+  return {
+    type: 'SET_PAIRS',
+    payload: pairs
+  }
+}

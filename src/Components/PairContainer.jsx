@@ -2,13 +2,22 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
 class PairContainer extends Component {
+
   render(){
     return (
-      <div>
-        Pairs go here
-      </div>
+      <ul>
+        {this.props.pairs.map((pair, i) => {
+          return <li key={i} ><p>{pair[0]}</p><p>{pair[1]}</p></li>
+        })}
+      </ul>
     )
   }
 }
 
-export default connect(null)(PairContainer)
+function mapStateToProps(state){
+  return {
+    pairs: state.pairs
+  }
+}
+
+export default connect(mapStateToProps)(PairContainer)

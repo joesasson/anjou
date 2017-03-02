@@ -29,3 +29,9 @@ Step by Step:
   - each pair should be an array of 2 names
   - PairContainer should map through the pairs state and render a PairItem for each pair array element
   - That's it
+
+3/2
+
+  - Finish up pair actions
+  - map the dispatch
+  - map state to props on the paircontainer

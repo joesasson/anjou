@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
+import { setPairs } from '../actions'
+import { bindActionCreators } from 'redux'
 
 
 class NameList extends Component {
@@ -8,15 +10,14 @@ class NameList extends Component {
     let names = this.props.names
     let shuffledNames = this.shuffle(names)
     var newArray = []
-    // create
     shuffledNames.forEach((el, i) => {
       if(i % 2 !== 0){
         newArray.push([el, shuffledNames[i - 1]])
-      } else if (i + 1 == shuffledNames.length){
+      } else if (i + 1 === shuffledNames.length){
         newArray.push([el, "No Partner Yet"])
       }
     })
-    console.table(newArray)
+    this.props.setPairs(newArray)
   }
 
   shuffle(array){
@@ -51,4 +52,8 @@ function mapStateToProps(state){
   }
 }
 
-export default connect(mapStateToProps)(NameList)
+function mapDispatchToProps(dispatch){
+  return bindActionCreators({setPairs}, dispatch)
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(NameList)
