@@ -3,7 +3,6 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
 
@@ -18,7 +17,24 @@
   font-size: large;
 }
 
+
+/*
+font-family: 'Pacifico', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Coming Soon', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Crafty Girls', cursive;
+font-family: 'Grand Hotel', cursive;
+font-family: 'Berkshire Swash', cursive;
+*/
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+ * {
+  /*animation: App-logo-spin infinite 20s linear;*/
 }

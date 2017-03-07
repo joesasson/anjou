@@ -35,3 +35,35 @@ Step by Step:
   - Finish up pair actions
   - map the dispatch
   - map state to props on the paircontainer
+  - pass props to PairItem
+
+
+3/7
+
+Today is the day for styling.
+
+I want the styling to be amazing. Every single thing should be animated in some way, and the color scheme and sizing should look and feel comfortable.
+
+Things I need to work on:
+  - Fonts
+  - Color Scheme
+  - Wireframe for Mobile & Desktop
+  - Animations
+  - Learn how to integrate a third party react component library
+  - Use material design concepts without making it look defaulty
+
+Google Fonts - change all displays to the word that you want to see
+
+- $$('gf-content-editable') will return all of the displays
+
+SVG's
+
+Making an SVG from a png is pretty simple with Illustrator as long as the image is fairly simple. Just place the image in a new illustrator document and click Image Trace on top with the 3 color setting and your image will be converted to illustrator paths, which you can save as an svg.
+
+Including the svg - add the svg file to the project folder and use an import statement to define a variable which will be a path of the file which you can use as the src of a tag.
+
+Making SVG scalable
+
+Wrap it with a prebuilt responsive class from [tachyons](http://tachyons.io/)
+
+Getting text to display beside logo 

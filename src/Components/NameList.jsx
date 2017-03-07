@@ -13,7 +13,7 @@ class NameList extends Component {
     shuffledNames.forEach((el, i) => {
       if(i % 2 !== 0){
         newArray.push([el, shuffledNames[i - 1]])
-      } else if (i + 1 === shuffledNames.length){
+      } else if (i === shuffledNames.length - 1){
         newArray.push([el, "No Partner Yet"])
       }
     })

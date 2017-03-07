@@ -1,0 +1,57 @@
+@import "tachyons";
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.logo {
+  font-family: 'Patrick Hand', cursive;
+  color: #3e514b;
+}
+
+.logo-header {
+  width: 40%;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.tagline {
+  font-family: 'Courgette', cursive;;
+}
+
+h2, h3, p {
+  margin: 0;
+}
+
+html { height: 100%; }
+body {
+    min-height:100%;
+    position:relative;
+    padding-bottom: 20px;
+    background-color: #3e514b;
+}
+.footer {
+    position: absolute;
+    left: 0 ; right: 0; bottom: 0;
+    height: 20px;
+}

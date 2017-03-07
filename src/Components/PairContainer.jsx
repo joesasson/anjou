@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
+import PairItem from './PairItem'
 
 class PairContainer extends Component {
 
@@ -7,7 +8,7 @@ class PairContainer extends Component {
     return (
       <ul>
         {this.props.pairs.map((pair, i) => {
-          return <li key={i} ><p>{pair[0]}</p><p>{pair[1]}</p></li>
+          return <PairItem pair={pair} />
         })}
       </ul>
     )
