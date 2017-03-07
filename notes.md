@@ -66,4 +66,33 @@ Making SVG scalable
 
 Wrap it with a prebuilt responsive class from [tachyons](http://tachyons.io/)
 
-Getting text to display beside logo 
+Sticky Footer:
+
+It's as simple as setting the body to 100% height and then setting padding on bottom equal to the height of the footer. As long as the content is not pushing it down it will stick to the bottom of the page.
+
+html { height: 100%; }
+body {
+    min-height:100%;
+    position:relative;
+    padding-bottom: 20px;
+    background-color: #3e514b;
+}
+.footer {
+    position: absolute;
+    left: 0 ; right: 0; bottom: 0;
+    height: 20px;
+}
+
+Fancy inputs:
+
+https://tympanus.net/codrops/2015/01/08/inspiration-text-input-effects/
+
+follow the tutorial and summarize. Never mind, I'll do it myself.
+
+- So I want the top and bottom border to be thick
+- on focus the borders should expand away from the text
+- The text should keep aspect ratio
+- There should be no default focus highlight
+- The placholder text should be clearer
+- The expansion should push the button down or the button should be placed further away
+- Enter should cause the input to lose focus

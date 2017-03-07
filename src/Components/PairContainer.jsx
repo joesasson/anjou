@@ -8,7 +8,7 @@ class PairContainer extends Component {
     return (
       <ul>
         {this.props.pairs.map((pair, i) => {
-          return <PairItem pair={pair} />
+          return <PairItem key={i} pair={pair} />
         })}
       </ul>
     )

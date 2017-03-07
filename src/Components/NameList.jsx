@@ -36,12 +36,13 @@ class NameList extends Component {
 
   render(){
     return (
-      <div>
-        <ul>
+      <article>
+        <h2 className="f4 pa3 bold center mw6">Names:</h2>
+        <ul className="name-list fl w-two-thirds bg-purple">
           {this.props.names.map((name, i) => <li key={`name-${i}`}>{name}</li>)}
         </ul>
         <button onClick={this.generatePairs.bind(this)} >Generate Pairs</button>
-      </div>
+      </article>
     )
   }
 }

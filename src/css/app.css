@@ -12,6 +12,7 @@
   height: 150px;
   padding: 20px;
   color: white;
+  opacity: 0.5;
 }
 
 .App-intro {
@@ -30,8 +31,8 @@
 }
 
 .logo-header {
-  width: 40%;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   border-radius: 100%;
 }
 
@@ -43,15 +44,89 @@ h2, h3, p {
   margin: 0;
 }
 
+* {
+  outline: 0;
+}
+
 html { height: 100%; }
 body {
     min-height:100%;
     position:relative;
     padding-bottom: 20px;
-    background-color: #3e514b;
+    background-color: #7ba799;
 }
 .footer {
     position: absolute;
     left: 0 ; right: 0; bottom: 0;
     height: 20px;
+}
+
+/* Haruki Input from https://tympanus.net/codrops/2015/01/08/inspiration-text-input-effects/ */
+
+/*.input__field--haruki {
+	padding: 0.4em 0.25em;
+	width: 100%;
+	background: transparent;
+	color: #AFB5BB;
+	font-size: 1.55em;
+}
+
+.input__label--haruki {
+	position: absolute;
+	width: 100%;
+	text-align: left;
+	pointer-events: none;
+}
+
+.input__label-content--haruki {
+	transition: transform 0.3s;
+}
+
+.input__label--haruki::before,
+.input__label--haruki::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 4px;
+	background: #6a7989;
+	transition: transform 0.3s;
+}
+
+.input__label--haruki::before {
+	top: 0;
+}
+
+.input__label--haruki::after {
+	bottom: 0;
+}
+
+.input__field--haruki:focus + .input__label--haruki .input__label-content--haruki,
+.input--filled .input__label-content--haruki {
+	transform: translate3d(0, -90%, 0);
+}
+
+.input__field--haruki:focus + .input__label--haruki::before,
+.input--filled .input__label--haruki::before {
+	transform: translate3d(0, -0.5em, 0);
+}
+
+.input__field--haruki:focus + .input__label--haruki::after,
+.input--filled .input__label--haruki::after {
+	transform: translate3d(0, 0.5em, 0);
+}*/
+
+.magic-input {
+  background: transparent;
+  width: 80%;
+  margin: auto;
+  height: 20px;
+  border-top: black solid 3px;
+  border-bottom: black solid 3px;
+}
+
+.magic-input:focus {
+  transition: transform .3s;
+  transform: scale(1.2)
 }
