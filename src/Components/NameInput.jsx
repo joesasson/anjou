@@ -17,7 +17,7 @@ class NameInput extends Component {
         <div className="measure center">
           <input id="name" ref='name' className="grow center input-reset br4 b--black-50 pa2 mb2 db w-60 bw3" type="text" placeholder='Enter a name' required />
         </div>
-          <button ref="addButton" className="f6 grow no-underline br-pill ba bw2 ph3 pv2 mb2 dib dark-green" type="submit">Add Name</button>
+          <button className="f6 grow br-pill ba bw2 ph3 pv2 mb2 dib dark-green" type="submit">Add Name</button>
       </form>
     )
   }

@@ -6,11 +6,11 @@ class PairContainer extends Component {
 
   render(){
     return (
-      <ul>
+      <div>
         {this.props.pairs.map((pair, i) => {
           return <PairItem key={i} pair={pair} />
         })}
-      </ul>
+      </div>
     )
   }
 }

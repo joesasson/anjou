@@ -24,6 +24,22 @@
   to { transform: rotate(360deg); }
 }
 
+.rotated:hover {
+  animation: App-logo-spin infinite 20s linear;
+}
+
+/*
+font-family: 'Pacifico', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Coming Soon', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Crafty Girls', cursive;
+font-family: 'Grand Hotel', cursive;
+font-family: 'Berkshire Swash', cursive;
+*/
+
 
 .logo {
   font-family: 'Patrick Hand', cursive;
@@ -55,6 +71,7 @@ body {
     padding-bottom: 20px;
     background-color: #7ba799;
 }
+
 .footer {
     position: absolute;
     left: 0 ; right: 0; bottom: 0;
