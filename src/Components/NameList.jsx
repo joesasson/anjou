@@ -37,7 +37,7 @@ class NameList extends Component {
   render(){
     return (
       <article className="pa1 pa2-ns" >
-        <h2 className="f4 pa1 bold center mw6">Names:</h2>
+        <h2 className="f4 pa1 bold center mw6 name-list-header">Names:</h2>
         <ul className="list pl0 ml0 center mw6 ba b--light-silver br2">
           {this.props.names.map((name, i) => <li className="ph3 pv2 bb b--light-silver" key={`name-${i}`}>{name}</li>)}
         </ul>

@@ -93,6 +93,14 @@ follow the tutorial and summarize. Never mind, I'll do it myself.
 - on focus the borders should expand away from the text
 - The text should keep aspect ratio
 - There should be no default focus highlight
-- The placholder text should be clearer
+- The placeholder text should be clearer
 - The expansion should push the button down or the button should be placed further away
 - Enter should cause the input to lose focus
+
+Use Tachyons for all elements grow is an animation there must be others that can be triggered on load.
+
+I should add some more features
+- Button to reset state
+- Only shuffle new names
+- Group people in groups of 3
+- Better styling - using flex/grid

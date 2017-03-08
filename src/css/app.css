@@ -147,3 +147,7 @@ body {
   transition: transform .3s;
   transform: scale(1.2)
 }
+
+.name-list-header {
+  font-family: 'Grand Hotel', cursive;
+}
