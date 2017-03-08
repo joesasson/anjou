@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 // import './App.css';
-import NameContainer from './components/NameContainer'
-import PairContainer from './components/PairContainer'
-import AppHeader from './components/AppHeader'
-import Footer from './components/Footer'
+import NameContainer from './Components/NameContainer'
+import PairContainer from './Components/PairContainer'
+import AppHeader from './Components/AppHeader'
+import Footer from './Components/Footer'
 
 class App extends Component {
   render() {
